@@ -2,6 +2,7 @@ import React from 'react';
 import AddUser from './AddUser';
 import Dogs from './dogs';
 import Update from './Update';
+import UserInterface from './UserInterface';
 
 
 
@@ -12,6 +13,7 @@ function App()
       {/* <Dogs />
       <AddUser /> */}
       <Update />
+      
     </div>
 
   );

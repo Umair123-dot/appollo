@@ -26,7 +26,7 @@ const AddUser = () => {
           e.preventDefault();
           createUser({ variables: { name: input.value } });
           input.value = '';
-        }}
+        }}  
       >
         <input
           ref={node => {
